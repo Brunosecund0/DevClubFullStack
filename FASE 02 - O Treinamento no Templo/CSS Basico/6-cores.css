@@ -1,0 +1,11 @@
+/* Cores RGB= Red , Green, blue */
+
+h1{ 
+    background: rgb(255, 0, 0);
+}
+
+/* hexadecimal */
+
+h1 {
+    background: #cc5e5e;
+}

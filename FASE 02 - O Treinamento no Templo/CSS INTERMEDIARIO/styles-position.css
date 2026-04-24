@@ -1,0 +1,41 @@
+
+/* Position
+    postion: static; (padrão) -- Não é possível usar as propriedades top, bottom, left e right.
+    positon:fixed; -- Fixa o Elemento na tela, mesmo quando a página é rolada. As propriedades top, bottom, left e right são usadas para posicionar o elemento.
+    positon: sticky; -- age como um adesivo, ficando fixo em um ponto específico da tela quando a página é rolada. As propriedades top, bottom, left e right são usadas para posicionar o elemento.
+    position: absolute; -- posiciona o elemento em relação ao seu primeiro ancestral posicionado (que não seja static). As propriedades top, bottom, left e right são usadas para posicionar o elemento.
+    position: relative; -- posiciona o elemento em relação à sua posição normal. As propriedades top, bottom, left e right são usadas para deslocar o elemento a partir de sua posição normal.
+                - Se Não Tiver pai / pai for static, o elemento será posicionado em relação à janela do navegador.
+                - Se o pai Não for static, o elemento será posicionado em relação ao pai mais próximo que tiver uma posição diferente de static.
+
+        - top
+        - bottom
+        - left  
+        - right
+ 
+                */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 350vh;
+    width: 200vw;
+}
+.div-dad {
+    background-color: #ff1396;
+    height: 350px;
+    width: 350px;        
+}
+
+.div-son {
+    background-color: #ff0;
+    height: 150px;
+    width: 150px;           
+}
+
+.tanananan {
+    background-color: #ff0000;
+    height: 100px;
+    width: 100px;           
+}

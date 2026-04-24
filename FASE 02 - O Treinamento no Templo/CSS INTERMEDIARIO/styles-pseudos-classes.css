@@ -1,0 +1,34 @@
+/* pseudo classes
+
+:active - seleciona o elemento no momento em que ele é ativado, ou seja, quando o usuário clica e mantém pressionado o mouse sobre ele.
+:visited - seleciona os links que já foram visitados pelo usuário.
+:hover - seleciona o elemento quando o usuário passa o mouse sobre ele. 
+:checked - seleciona os elementos que estão marcados, como caixas de seleção ou botões de rádio.
+:disabled - seleciona os elementos que estão desativados.
+:enabled - seleciona os elementos que estão habilitados.
+:focus - seleciona o elemento que está em foco, ou seja, aquele que está ativo
+:read-only - seleciona os elementos que são somente leitura, ou seja, que não podem ser editados pelo usuário.         
+:read-write - seleciona os elementos que são editáveis, ou seja, que podem ser modificados pelo usuário.
+:empty - seleciona os elementos que não possuem filhos, ou seja, que estão vazios.
+
+
+:first-child - seleciona o primeiro filho de um elemento pai.
+:first-of-type - seleciona o primeiro elemento de um tipo específico dentro de um elemento pai.
+:last-child - seleciona o último filho de um elemento pai.
+:last-of-type - seleciona o último elemento de um tipo específico dentro de um elemento pai.
+:not(selector) - seleciona os elementos que não correspondem ao seletor especificado.
+:nth-child(n) - seleciona o enésimo filho de um elemento pai, onde n é um número inteiro ou uma fórmula.
+:nth-of-type(n) - seleciona o enésimo elemento de um tipo específico dentro de  
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:active {
+    color: blue;
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+
+
+h1 {
+    color: #ff0000;
+    font-size: 64px;
+    text-shadow: 10px 10px 10px #ff0000;
+}
+
+p {
+    color: #0000ff;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 50px; /*=  espaçamento das linhas */
+    letter-spacing: 30px; /*=  espaçamento das letras */
+    word-spacing: 40px; /*= espaçamento das Palavras */
+    text-align: center; /*=  Alinhamento do Texto */
+    text-transform: uppercase;  /* = deixar todas letras maiusculas, minuscula, entre outras opções */
+    text-decoration: underline; /* = Decoração do texto */
+
+
+} 

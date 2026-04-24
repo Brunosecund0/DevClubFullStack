@@ -1,0 +1,18 @@
+/* Unidades de Medidas
+    --> Absolutas
+        1 polegada 0,254mm
+        px (pixels) 1/100 
+        in (inches/polegadas)
+        cm / mm (centémetro / milímetro )
+
+
+    --> Relativas
+        % calula o tamanho relativo ao elemento pai
+        vw (view width) 1w é 1% da largura da janela do nevagador
+        vh (view height) 1vh é 1% da altura da janela do navegador
+        em "emphemeral unit - unidade transitoria" = é  uma unidade relativa ao elemento pai
+        rem "rootemphemeral unit! é uma raiz transitoria = relativa ao elemento raiz
+*/
+
+
+

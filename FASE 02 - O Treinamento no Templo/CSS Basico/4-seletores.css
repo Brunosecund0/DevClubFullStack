@@ -1,0 +1,51 @@
+    /*
+    h1 {
+        color:pink;
+        background: black;
+    }
+
+    p {
+        color:blue;
+        font-size: 20px;
+    }
+    button {
+        background: green;
+        border-color: darkgreen;        
+    } 
+    */
+
+    /*  * = selecionar todos elementos */     
+
+    /* ID = Seleciona um unico elemento 
+
+    #titulo {
+        color: red;
+        font-size: 60px;
+   }
+
+   #paragrafo {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+   }
+
+   #botao {
+    background: green;
+    }
+
+    #botao2 {
+        background: chocolate;
+    }
+    */
+
+    /* class = é um seletor reutilizável utilizado para aplicar regras de estilo específicas a um ou mais elementos HTML que possuam o mesmo atributo 
+
+    .texto, .botao {
+        color: red;
+        font-weight: bold;
+    }
+
+    .botao {
+        background: blue;
+    }
+        */
